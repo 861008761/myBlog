@@ -1,13 +1,13 @@
 # Site settings
-title: sunxiaobiu技术不宅
-email: sunxiaobiu@gmail.com
+title: mylovin
+email: 861008761@qq.com
 description: Source of me.
 localurl: "" # the subpath of your site, e.g. /blog/
-url: http://sunxiaobiu.github.io # the base hostname & protocol for your site
+url: http://mylovin.itschy.com/myBlog/ # the base hostname & protocol for your site
 me-img: "/img/HeadPicture.png"
 
 twitter_username:
-github_username: sunxiaobiu
+github_username: 861008761
 
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
@@ -16,8 +16,8 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 
-assets: http://sunxiaobiu.github.io/assets
-baseurl: http://sunxiaobiu.github.io
+assets: http://mylovin.itschy.com/myBlog/assets
+baseurl: http://mylovin.itschy.com/myBlog/
 
 # pagination
 paginate: 10
@@ -68,7 +68,7 @@ imglogo:
   src: img/logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
 favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.
 apple_icon: img/jacman.jpg ## size:114px*114px,please put image into the theme folder `/jacman/source/img`.
-author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
+author_img:  ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
 banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
 
 #### index post is expanding or not
@@ -81,18 +81,18 @@ mathjax: false      #enable mathjax if true
 
 #### Author information
 author:
-  name: sunxiaobiu      ## e.g. wuchong Author name
+  name: mylovin      ## e.g. wuchong Author name
   intro_line1:  "Hello ,I'm Sunxiaoyu in Shanghai."    ## your introduction on the bottom of the page
   intro_line2:  "Too simple, sometimes naive."  ## the 2nd line
   weibo: 5729765191     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier: 9d4bc461 ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina: 9d4bc461     ## e.g. 2176287895  Your weibo ID,It will be used in share button.
   douban: 74961542    ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
-  zhihu: sunxiaobiu     ## e.g. jark  for http://www.zhihu.com/people/jark
-  email: sunxiaobiu@gmail.com     ## e.g. imjark@gmail.com
+  zhihu: 18758582007     ## e.g. jark  for http://www.zhihu.com/people/jark
+  email: 861008761@qq.com     ## e.g. imjark@gmail.com
   twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
-  github: sunxiaobiu    ## e.g. wuchong for https://github.com/wuchong
-  facebook: xiaobiu.sun  ## e.g. imjark for https://facebook.com/imjark
+  github: 861008761    ## e.g. wuchong for https://github.com/wuchong
+  facebook:  ## e.g. imjark for https://facebook.com/imjark
   linkedin:   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
   google_plus:    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
   stackoverflow: 5633124 ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
@@ -112,7 +112,7 @@ excerpt_separator: <!--more-->
 
 #### Comment
 duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
-disqus_shortname: sunxiaobiu    ## e.g. wuchong   your disqus short name.
+disqus_shortname:    ## e.g. wuchong   your disqus short name.
 
 #### Share button
 jiathis:
@@ -129,7 +129,7 @@ google_analytics:
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
   enable: true
-  sitecode: 7578feb1a00553f099171e7b2560ae78 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
+  sitecode: ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 cnzz_tongji:
   enable: false
   siteid:    ## e.g. 1253575964 your cnzz tongji site id
