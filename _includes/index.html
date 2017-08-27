@@ -23,7 +23,7 @@
     {% else %}
     <a class="page-number" href="/">1</a>
     {% endif %}
-    {% for i in (1..paginator.total_pages) %}
+    {% for i in (2..paginator.total_pages) %}
     {%if i == paginator.page %}
     <span class="page-number current" href="/page{{ i }}" >{{ i }}</span>
     {% else %}
