@@ -11,9 +11,9 @@
     {% if paginator.previous_page %}
 
     {% if paginator.previous_page == 1 %}
-    <a href="{{ site.baseurl }}/"><span></span>Prev</a>
+    <a href="{{ site.baseurl }}/myBlog"><span></span>Prev</a>
     {% else %}
-    <a href="{{ site.baseurl }}/myBlog/page{{ paginator.previous_page }}"><span></span>Prev</a>
+    <a href="{{ site.baseurl }}/page{{ paginator.previous_page }}"><span></span>Prev</a>
     {% endif %}
 
     <!-- <a class="extend prev" rel="prev" href="{{ site.baseurl }}/page{{ paginator.previous_page }}"><span></span>Prev</a> -->
@@ -25,9 +25,9 @@
     {% endif %}
     {% for i in (2..paginator.total_pages) %}
     {%if i == paginator.page %}
-    <span class="page-number current">{{ i }}</span>
+    <span class="page-number current" href="/page{{ i }}" >{{ i }}</span>
     {% else %}
-    <a class="page-number" href="/page{{ i }}">{{ i }}</a>
+    <a class="page-number" href="{{ site.baseurl }}/page{{ i }}">{{ i }}</a>
     {% endif %}
     {% endfor %}
      {% if paginator.next_page %}
