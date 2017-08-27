@@ -21,7 +21,7 @@
     {% if paginator.page == 1 %}
     <span class="page-number current">1</span>
     {% else %}
-    <a class="page-number" href="/">1</a>
+    <a class="page-number" href="{{ site.baseurl }}">1</a>
     {% endif %}
     {% for i in (2..paginator.total_pages) %}
     {%if i == paginator.page %}
